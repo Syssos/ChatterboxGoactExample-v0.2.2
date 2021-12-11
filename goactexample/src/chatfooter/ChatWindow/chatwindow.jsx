@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './ChatWindow.css'
 
+import Chatterbox from './Chatterbox'
+
 class ChatWindow extends Component {
     
     constructor(props) {
@@ -30,7 +32,7 @@ class ChatWindow extends Component {
 
             <div className="ChatboxContent">
               {/* Chatterbox here */}
-              {/*<Chatterbox />*/}
+              <Chatterbox />
             </div>
           </div>
         );

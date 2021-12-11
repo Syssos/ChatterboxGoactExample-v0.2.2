@@ -1,7 +1,7 @@
 .ChatFooter {
 	grid-row: 3;
 	grid-column: 1;
-	width: 97.5%;
+	width: 100%;
 	height: 100%;
 	background-color: #f0f3ff;
 	display: flex;
