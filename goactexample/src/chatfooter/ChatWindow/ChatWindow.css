@@ -1,0 +1,68 @@
+.ChatWindow {
+	width: 200px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+}
+
+	.ChatWindow:hover {
+		cursor: pointer;
+	}
+
+.ChatWindowExtended {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 500px;
+	height: 435px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	background-color: white;
+}
+
+.ChatControls {
+	width: 100%;
+	height: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+.ChatTitle {
+	width: 200px;
+	height: 100%;
+	margin-left: 2.5%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.ChatMinimize {
+	width: 25px;
+	margin-right: 2.5%;
+	height: 100%;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	.ChatMinimize:hover {
+		cursor: pointer;
+	}
+
+.ChatboxContent {
+	width: 100%;
+	height: 100%;
+}
