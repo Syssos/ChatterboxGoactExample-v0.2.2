@@ -1,0 +1,21 @@
+.App {
+	width: 100vw;
+	height:  100vh;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 75px calc(100% - 125px) 50px;
+}
+
+.Header {
+	grid-row: 1;
+	grid-column: 1;
+	width: 97.5%;
+	height: 100%;
+	font-size: 32px;
+	color:  white;
+	background-color: #577ef7;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 2.5%;
+}

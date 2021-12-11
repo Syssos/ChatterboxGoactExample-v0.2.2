@@ -1,0 +1,49 @@
+.Post {
+	/*height: 225px;*/
+	width: 97.5%;
+	margin-left: 1.25%;
+	box-sizing: border-box;
+	/*border-bottom: 1px solid #0029cc37;*/
+	display: grid;
+	grid-template-rows: 75px 25px auto 10px;
+	grid-template-columns: 100px calc(100% - 100px);
+	margin-top: 2.5%;
+}
+
+.PostImage {
+	grid-row: 1 / 3;
+	grid-column: 1;
+	background-color: #112c8c15;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.PostDetails {
+	grid-row: 1;
+	grid-column: 2;
+	box-sizing: border-box;
+	border-bottom: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding-left:  1.5%;
+
+}
+
+	.PostCreator {
+		font-size: 20px;
+	}
+
+	.PostDate {
+		font-size: 12px;
+	}
+
+.PostDesc {
+	grid-row: 2 / 4;
+	grid-column: 2;
+	padding: 2.5%;
+
+}
